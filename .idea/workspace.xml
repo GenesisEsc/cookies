@@ -9,15 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85eb48f-50d5-4c72-b0aa-b3199e98422d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cabeceros.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/ProductoJsonServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ProductoServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductoServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ProductoXlsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/ProductoXlsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ProductosServicesImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductosServicesImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+    <list default="true" id="f85eb48f-50d5-4c72-b0aa-b3199e98422d" name="Changes" comment="Implementacion del json y arreglo en webservlets">
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,11 +207,24 @@
       <updated>1761172419787</updated>
       <workItem from="1762388534027" duration="1999000" />
       <workItem from="1762436378579" duration="5015000" />
-      <workItem from="1762474851814" duration="3842000" />
+      <workItem from="1762474851814" duration="4183000" />
     </task>
+    <task id="LOCAL-00001" summary="Implementacion del json y arreglo en webservlets">
+      <option name="closed" value="true" />
+      <created>1762478748048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762478748048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementacion del json y arreglo en webservlets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacion del json y arreglo en webservlets" />
   </component>
 </project>
