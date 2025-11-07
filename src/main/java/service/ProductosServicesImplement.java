@@ -1,6 +1,7 @@
-package servlet;
+package service;
 
 import models.Producto;
+
 import java.util.Arrays;
 import java.util.List;
 

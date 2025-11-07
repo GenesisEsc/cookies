@@ -3,7 +3,6 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="cabeceros" />
-      <artifact name="cabeceros" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -11,11 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f85eb48f-50d5-4c72-b0aa-b3199e98422d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/ProductoServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/ProductoXlsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/ProductosServicesImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cabeceros.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/ProductoJsonServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ProductoServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductoServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ProductoXlsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/ProductoXlsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ProductosServicesImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductosServicesImplement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GenesisEsc"
+  }
+}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b497f946-a8bc-436d-9105-90a98910c2c2" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GenesisEsc/cabeceros.git",
+    "accountId": "b497f946-a8bc-436d-9105-90a98910c2c2"
+  }
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -62,6 +78,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 11.0.13.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -176,7 +193,6 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="cabeceros" />
-          <artifact name="cabeceros" />
         </option>
       </method>
     </configuration>
@@ -198,6 +214,7 @@
       <updated>1761172419787</updated>
       <workItem from="1762388534027" duration="1999000" />
       <workItem from="1762436378579" duration="5015000" />
+      <workItem from="1762474851814" duration="3842000" />
     </task>
     <servers />
   </component>

@@ -6,12 +6,16 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import models.Producto;
+import service.ProductoServices;
+import service.ProductosServicesImplement;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 //Ponemos las 2 rutas que se van a implementar
-@WebServlet ("/producto.xls")
+
+@WebServlet ({"/productos.xls","/productos.html"})
+
 public class ProductoXlsServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -22,18 +26,29 @@ public class ProductoXlsServlet extends HttpServlet {
         //se crea una lista llamando al metodo listar de mi interfaz
         List<Producto>productos = service.listar();
         resp.setContentType("text/html;charset=UTF-8");
-        //String servletPath = req.getServletPath();
-        //boolean esXls = servletPath.endsWith();
+
+        String servletPath = req.getServletPath();
+        boolean esXls = servletPath.endsWith(".xls");
+
+        if (esXls) {
+            resp.setContentType("application/vnd.ms-excel");
+            resp.setHeader("Content-Disposition", "attachment; filename=productos.xls");
+        }
 
         try(PrintWriter out = resp.getWriter()) {
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<meta charset='utf-8'>");
-            out.println("<title>listado producto</title>");
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Listado de Productos</h1>");
+            if(!esXls) {
+                out.println("<!DOCTYPE html>");
+                out.println("<html>");
+                out.println("<head>");
+                out.println("<meta charset=\"utf-8\">");
+                out.println("<title>Listado Productos</title>");
+                out.println("</head>");
+                out.println("<body>");
+                out.println("<h1>Listado de Productos</h1>");
+                out.println("<p><a href=\"" + req.getContextPath() + "/productos.xls" + "\">Exportar a Excel</a></p>");
+                out.println("<p><a href=\"" + req.getContextPath() + "/productojson" + "\">Mostrar Json</a></p>");
+            }
+
             out.println("<table>");
             out.println("<tr>");
             out.println("<th>ID PRODUCTO</th>");
@@ -50,8 +65,10 @@ public class ProductoXlsServlet extends HttpServlet {
                 out.println("</tr>");
             });
             out.println("</table>");
-            out.println("</body>");
-            out.println("</html>");
+            if (!esXls) {
+                out.println("</body>");
+                out.println("</html>");
+            }
         }
     }
 }
