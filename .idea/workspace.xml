@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85eb48f-50d5-4c72-b0aa-b3199e98422d" name="Changes" comment="Implementacion del json y arreglo en webservlets">
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Producto.java" afterDir="false" />
-    </list>
+    <list default="true" id="f85eb48f-50d5-4c72-b0aa-b3199e98422d" name="Changes" comment="Comentarios en interface ProductoServices" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +205,7 @@
       <updated>1761172419787</updated>
       <workItem from="1762388534027" duration="1999000" />
       <workItem from="1762436378579" duration="5015000" />
-      <workItem from="1762474851814" duration="4183000" />
+      <workItem from="1762474851814" duration="4508000" />
     </task>
     <task id="LOCAL-00001" summary="Implementacion del json y arreglo en webservlets">
       <option name="closed" value="true" />
@@ -217,7 +215,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762478748048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Comentarios en models Producto">
+      <option name="closed" value="true" />
+      <created>1762479071112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762479071112</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Comentarios en interface ProductoServices">
+      <option name="closed" value="true" />
+      <created>1762479354152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762479354152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +239,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementacion del json y arreglo en webservlets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementacion del json y arreglo en webservlets" />
+    <MESSAGE value="Comentarios en models Producto" />
+    <MESSAGE value="Comentarios en interface ProductoServices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comentarios en interface ProductoServices" />
   </component>
 </project>
