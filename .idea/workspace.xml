@@ -9,13 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85eb48f-50d5-4c72-b0aa-b3199e98422d" name="Changes" comment="Comentarios en ProductoXlsServlet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+    <list default="true" id="f85eb48f-50d5-4c72-b0aa-b3199e98422d" name="Changes" comment="programa con login en jsp falta agregar cabeceros en productos y mostrar el precio en caso de haber loggeado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cabeceros/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cabeceros/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/CabecerasHttpRequestServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +214,7 @@
       <workItem from="1762436378579" duration="5015000" />
       <workItem from="1762474851814" duration="5986000" />
       <workItem from="1762780388021" duration="75000" />
-      <workItem from="1762780491548" duration="4463000" />
+      <workItem from="1762780491548" duration="4879000" />
     </task>
     <task id="LOCAL-00001" summary="Implementacion del json y arreglo en webservlets">
       <option name="closed" value="true" />
@@ -269,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762480383785</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="programa con login en jsp falta agregar cabeceros en productos y mostrar el precio en caso de haber loggeado">
+      <option name="closed" value="true" />
+      <created>1762785079746</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762785079746</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +285,7 @@
     <MESSAGE value="Comentarios en ProductosServicesImplement" />
     <MESSAGE value="Comentarios en ProductoJsonServlet" />
     <MESSAGE value="Comentarios en ProductoXlsServlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comentarios en ProductoXlsServlet" />
+    <MESSAGE value="programa con login en jsp falta agregar cabeceros en productos y mostrar el precio en caso de haber loggeado" />
+    <option name="LAST_COMMIT_MESSAGE" value="programa con login en jsp falta agregar cabeceros en productos y mostrar el precio en caso de haber loggeado" />
   </component>
 </project>
