@@ -3,29 +3,28 @@
     Autor: Genesis
     Fecha: 06/11/2025
     Descripción:
-    Página principal del proyecto "Manejo de Cabeceros".
-    Desde aquí se puede acceder a los enlaces para visualizar los cabeceros
-    HTTP y para navegar a la sección de productos.
+    Página principal del proyecto "Manejo de Cookies".
+    Desde aquí se puede acceder a los enlaces para loggearse y para navegar a la sección de productos.
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <!-- Se especifica la codificación de caracteres para soportar acentos y caracteres especiales -->
     <meta charset="UTF-8">
-
-    <!-- Título que se muestra en la pestaña del navegador -->
-    <title>Manejo de cookies</title>
+    <title>Manejo de Cookies</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-<!-- Encabezado principal de la página -->
-<h1>Manejo de Cookies</h1>
+<div class="index-container">
+    <h1>Manejo de Cookies</h1>
+    <p>Selecciona una opción para continuar:</p>
 
-
-<!-- Enlace que redirige a la página de productos (ProductoXlsServlet) -->
-<a href="/cabeceros/productos.html">Ir a productos</a>
-<br>
-<a href="/cabeceros/login.html"> ir al login</a>
+    <div class="links">
+        <a href="productos.html">Ir a productos</a>
+        <a href="login.html">Ir al login</a>
+    </div>
+</div>
 </body>
 </html>
+

@@ -39,10 +39,14 @@ public class LoginServlet extends HttpServlet {
                 out.println("<head>");
                 out.println("<meta charset='utf-8'>");
                 out.println("<title>login" + cookieOptional.get()+"</title>");
+                out.println("<link rel='stylesheet' href='" + req.getContextPath() + "/styles.css'>");
                 out.println("</head>");
                 out.println("<body>");
+                out.println("<div class='message-container'>");
                 out.println("<h1>Login</h1>");
-                out.println("Bienvenido a mi sistema chaval " + cookieOptional.get() +" has iniciado sesion");
+                out.println("<p>Bienvenido al sistema <strong>" + cookieOptional.get() + "</strong>, has iniciado sesión correctamente.</p>");
+                out.println("<a href='" + req.getContextPath() + "/index.html'>Volver al inicio</a>");
+                out.println("</div>");
                 out.println("</body>");
                 out.println("</html>");
             }
@@ -65,11 +69,14 @@ public class LoginServlet extends HttpServlet {
                 out.println("<html>");
                 out.println("<head>");
                 out.println("<meta charset='utf-8'>");
-                out.println("<title>login correcto</title>");
+                out.println("<title>Login Correcto</title>");
+                out.println("<link rel='stylesheet' href='" + req.getContextPath() + "/styles.css'>");
                 out.println("</head>");
                 out.println("<body>");
-                out.println("<h1>Bienvenidos a mi aplicación chavalesssshhh" + username + " Sesión con exito mijas!!</h1>");
+                out.println("<div class='message-container'>");
+                out.println("<h1>Bienvenido al sistema " + username + "</h1>");
                 out.println("<a href='" +req.getContextPath() +"/index.html'>Volver al inicio</a>");
+                out.println("</div>");
                 out.println("</body>");
                 out.println("</html>");
             }

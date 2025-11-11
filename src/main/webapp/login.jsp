@@ -1,31 +1,33 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Usuario
-  Date: 10/11/2025
-  Time: 8:16
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%---Creación del formulario---%>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>Title</title>
+    <meta charset="UTF-8">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/styles.css">
 </head>
 <body>
-<div>
-<form action = "/cabeceros/login" method="post">
-    <div>
-        <label for="user"> Ingrese el usuario </label>
-        <input type="text" id="user" name="user">
-    </div>
-    <div>
-        <label for="password">Ingrese el password</label>
-        <input type="password" id="password" name="password">
-    </div>
-    <div>
-        <input type="submit" value="entrar">
-    </div>
-</form>
+
+<div class="login-container">
+    <h1>Iniciar sesión</h1>
+
+    <form action="<%= request.getContextPath() %>/login" method="post">
+        <div>
+            <label for="user">Usuario</label><br>
+            <input type="text" id="user" name="user" placeholder="Ingrese su usuario" required>
+        </div>
+
+        <div>
+            <label for="password">Contraseña</label><br>
+            <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+        </div>
+
+        <div>
+            <input type="submit" value="Entrar">
+        </div>
+    </form>
 </div>
+
 </body>
 </html>
+

@@ -1,0 +1,206 @@
+/* ==== ESTILOS GENERALES ==== */
+/* Fuente base y color de fondo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6efe7;
+    margin: 40px;
+}
+
+/* Título principal */
+h1 {
+    color: #5a3825; /* Café intenso */
+    text-align: center;
+}
+
+/* ==== ENLACES GENERALES ==== */
+/* Contenedor centrado para los enlaces */
+.links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo base de los enlaces  */
+.links a {
+    margin: 0 10px;
+    color: #c47b76;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efecto hover  */
+.links a:hover {
+    text-decoration: underline;
+    color: #8c4c4a;
+}
+
+/* ==== TEXTO DE ADMIN ==== */
+/* Destacar texto de administrador  */
+.admin {
+    color: #b94b45;
+    font-weight: bold;
+}
+
+/* ==== TABLAS ==== */
+/* Contenedor de tabla centrado */
+.tabla-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Fondo con bordes */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background: #fffaf6;
+}
+
+/* Bordes y alineación centrada */
+th, td {
+    padding: 10px;
+    border: 1px solid #e1c7b7;
+    text-align: center;
+}
+
+/* Encabezado con fondo */
+th {
+    background-color: #d6a89e;
+    color: white;
+}
+
+/* Filas pares con fondo */
+tr:nth-child(even) {
+    background-color: #f2e4da;
+}
+
+/* Texto para cuando no hay sesión */
+.no-sesion {
+    color: gray;
+    font-style: italic;
+}
+
+/* ==== ESTILOS LOGIN ==== */
+/* Caja centrada  */
+.login-container {
+    width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(140, 90, 60, 0.2);
+    text-align: center;
+}
+
+/* Título del login  */
+.login-container h1 {
+    color: #a46c5a;
+    margin-bottom: 25px;
+}
+
+/* Formulario con disposición vertical */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Campos  */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    padding: 10px;
+    border: 1px solid #dec1b2;
+    border-radius: 6px;
+}
+
+/* Botón principal */
+.login-container input[type="submit"] {
+    background: #c47b76;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hover */
+.login-container input[type="submit"]:hover {
+    background: #8c4c4a;
+}
+
+/* Mensaje de error */
+.login-container .error {
+    color: #b94b45;
+    font-weight: bold;
+}
+
+/* ==== ESTILOS INDEX ==== */
+/* Contenedor centrado */
+.index-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Texto descriptivo  */
+.index-container p {
+    color: #4e3b2e;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Botones de navegación */
+.index-container .links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background: #a46c5a;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+/* Hover */
+.index-container .links a:hover {
+    background: #8c4c4a;
+}
+
+/* ==== MENSAJES DEL SERVLET ==== */
+/* Contenedor de mensajes */
+.message-container {
+    width: 450px;
+    margin: 120px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(140, 90, 60, 0.2);
+    text-align: center;
+}
+
+/* Título del mensaje */
+.message-container h1 {
+    color: #a46c5a;
+    margin-bottom: 20px;
+}
+
+/* Enlace con estilo de botón */
+.message-container a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #c47b76;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+/* Hover */
+.message-container a:hover {
+    background: #8c4c4a;
+}
+
+
+
+
